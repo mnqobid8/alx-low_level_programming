@@ -1,4 +1,4 @@
-#include <stdio.h> 
+#include <stdio.h>
 
 /**
  * main -prints all possible combinations of single-digit numbers
@@ -9,7 +9,7 @@ int main(void)
 {
 	int a;
 
-	for(a = 48; a < 58; a++)
+	for (a = 48; a < 58; a++)
 	{
 		putchar(a);
 		if (a != 57)
@@ -19,5 +19,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return (0) ;
+	return (0);
 }
