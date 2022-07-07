@@ -2,8 +2,7 @@
 
 /**
  * main - prints _putchar,followed by a new line
- * returns 0
- * Return - Always zero 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
