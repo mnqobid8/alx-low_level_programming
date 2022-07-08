@@ -14,7 +14,7 @@ int main(void)
 	i = 0;
 
 	while (i < 10)
-	{
+	{/*while loop - continues infinitely as long as condition is met*/
 		putchar(i);
 	}
 	/*@i: is not incremented so remains as 0 hence i is always less than 10 and the while loops is infinite*/
