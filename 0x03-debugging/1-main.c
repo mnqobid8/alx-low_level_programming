@@ -17,11 +17,8 @@ int main(void)
 	{
 		putchar(i);
 	}
-	/*@i: is not incremented so remains as 0 hence i is always less than 
-	 * 10 and the while loops is infinite
-	 */ 
+	/*@i: is not incremented so remains as 0 hence i is always less than 10 and the while loops is infinite*/
 	printf("Infinite loop avoided! \\o/\n");
 
 	return (0);
 }
-
