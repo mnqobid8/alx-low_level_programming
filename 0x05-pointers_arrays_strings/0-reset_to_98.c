@@ -6,18 +6,7 @@
  * Return : zero (Success)
  */
 
-void reset_to_98(int *n)
+void reset_to_98(int *m)
 {
-	int *n;
-	int p;
-
-	p = 402;
-	n = &p;
-
-	_putchar(p);
-	*n = 98;
-	_putchar(p);
-	_putchar("\n");
-
-	return (0);
+	*m = 98;
 }
