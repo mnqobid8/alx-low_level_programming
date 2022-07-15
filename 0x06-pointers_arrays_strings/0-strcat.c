@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * *_strcat - appends the src string to the dest string,
- * overwriting the terminating null byte (\0) at the end of dest,
- * and then adds a terminating null byte
- * @dest: Receiving variable
- * @src: string to be appended
+ * _strcat - concatenates two strings
+ * @dest: string to append to
+ * @src: string to add
+ * 
  * Return: a pointer to the resulting string dest
  */
 

@@ -2,8 +2,8 @@
 
 /**
  * _strncat - concatenates n bytes from a string to another
- * @dest: Receiving variable
- * @src: string to be appended
+ * @dest: destination string
+ * @src: source string
  * @n: number of bytes of str to concatenate
  *
  * Return: a pointer to the resulting string dest
